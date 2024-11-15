@@ -34,15 +34,6 @@ export default function AdminNavbar(props) {
   const { syncData, setSyncData } = useContext(AccountContext);
   const { syncStatus, setSyncStatus } = useContext(AccountContext);
   const {
-    balance,
-    setBalance,
-    token,
-    setToken,
-    account,
-    setAccount,
-    connected_blockchain,
-    setConnectedBlockchain,
-    blockchain, 
     setBlockchain,
     network, 
     setNetwork

@@ -554,7 +554,7 @@ import {
                     borderRadius="5px"
                     px="14px"
                     onClick={(e) =>
-                      changeFrequency("daily", "160", "Last 6 Months")
+                      changeFrequency("daily", "182", "Last 6 Months")
                     }
                     color={textColorSecondary}
                     fontSize="16px"
