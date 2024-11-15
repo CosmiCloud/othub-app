@@ -131,7 +131,7 @@ export default function CumEarnings(props) {
             ? "last7d"
             : button_select === "30"
             ? "last30d"
-            : button_select === "160"
+            : button_select === "182"
             ? "last6m"
             : button_select === "12"
             ? "last1y"

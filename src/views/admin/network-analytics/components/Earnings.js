@@ -131,7 +131,7 @@ export default function CumEarnings(props) {
       data = {
         network: network,
         blockchain: blockchain,
-        frequency: button_select === "24" ? ("last24h") : button_select === "168" ? ("last7d") : button_select === "30" ? ("last30d") : button_select === "160" ? ("last6m") : button_select === "12" ? ("last1y") : "latest",
+        frequency: button_select === "24" ? ("last24h") : button_select === "168" ? ("last7d") : button_select === "30" ? ("last30d") : button_select === "182" ? ("last6m") : button_select === "12" ? ("last1y") : "latest",
       };
       response = await axios.post(
         `${process.env.REACT_APP_API_HOST}/nodes/stats`,
