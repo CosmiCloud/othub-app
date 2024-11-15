@@ -161,7 +161,7 @@ export default function CumEarnings(props) {
     if (button === "30") {
       format = "DD MMM YY";
     }
-    if (button === "160") {
+    if (button === "182") {
       format = "DD MMM YY";
     }
 
